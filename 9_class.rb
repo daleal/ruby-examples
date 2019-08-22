@@ -31,3 +31,5 @@ perro.piscolits
 zorron = PerratzoTech.new(5, "Green Velvet")
 zorron.piscolits
 zorron.techno
+
+# Investigar los modules
