@@ -1,2 +1,4 @@
 Hola! soy un archivo txt.
 Soy un ejemplo.
+Hola, soy yo de nuevo.
+Hola, soy yo de nuevo.

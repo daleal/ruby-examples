@@ -7,7 +7,8 @@ end
 # Ver diferencia entre File.open(...) y open(...)
 
 File.open('files/write.txt', 'w') do |f|
-  f.puts 'Mi primera linea'
+  f.puts 'Mi primera línea'
+  f.puts 'Esto se escribe en otra línea!'
 end
 
 # File.open('files/write.txt', 'w') {|file| file.puts "Otra forma de escribir en archivos"}
@@ -18,7 +19,7 @@ File.open('files/read.txt', 'a') do |f|
   f.puts 'Hola, soy yo de nuevo.'
 end
 
-file = CSV.read('files/read_csv.txt')
+file = CSV.read('files/read.csv')
 puts file
 puts file[0][0]
 
