@@ -1,3 +1,5 @@
+# ARGV: array with console-given arguments
+
 # Get first console-given argument
 first_element = ARGV[0]
 
