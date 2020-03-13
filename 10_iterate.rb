@@ -1,5 +1,5 @@
 # Define a VERY realistic weekday list
-week = ['Lunes', 'Lunes', 'Miércoles', 'Viernes', 'Viernes', 'Sábado', 'Domingo']
+week = ["Lunes", "Lunes", "Miércoles", "Viernes", "Viernes", "Sábado", "Domingo"]
 
 # Iter over the week and print each day
 week.each do |day|
