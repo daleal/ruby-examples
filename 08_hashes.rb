@@ -1,16 +1,24 @@
-hash = { :uno => 1, :dos => 2, :tres => 3 } # antiguo
-hsah = { "uno": 1, "dos": 2, "tres": 3 }
+# Define a hash like in Python (dictionaries are called hashes in ruby)
+hash = { "uno": 1, "dos": 2, "tres": 3 }
 
+# Define a hash using symbols and arrows
+symbol_hash = { :uno => 1, :dos => 2, :tres => 3 }
+
+# Log hashes generated... They are IDENTICAL!
 puts hash
-puts hsah
+puts symbol_hash
 
+# ¿¿WHAAAAAAT?? Strings get transformed to symbols when used inside
+# the hash's definition...
+puts symbol_hash[:uno]
 puts hash[:uno]
-puts hsah[:uno]
 
-hsah['cuatro'] = 4
-hsah[:cuatro] = 5
+# Add some elements...
+hash["cuatro"] = 4
+hash[:cuatro] = 5
 
-puts hsah
+# Now, the string does not get converted to a symbol!
+puts hash
 
 # Útil: cuando un hash es el último argumento entregado a un método,
 # se pueden omitir los brackets {} en la llamada al método. Ejemplo:
