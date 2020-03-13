@@ -1,10 +1,15 @@
-def sumar(first, second)
+# Explicit return function definition
+def addition(first, second)
+  # Return the sum
   return first + second
 end
 
-def sumar_implicito(first, second)
+# Implicit return function definition
+def implicit_addition(first, second)
+  # Compute the sum as the last statement and DON'T return it
   first + second
 end
 
-puts sumar(2, 3)
-puts sumar_implicito(2, 3)
+# Log both results
+puts addition(2, 3)           # It obviously returns
+puts implicit_addition(2, 3)  # What happens with this function call?
