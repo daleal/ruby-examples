@@ -20,14 +20,17 @@ hash[:cuatro] = 5
 # Now, the string does not get converted to a symbol!
 puts hash
 
-# Útil: cuando un hash es el último argumento entregado a un método,
-# se pueden omitir los brackets {} en la llamada al método. Ejemplo:
+# ProTip: when a hash is the last argument given to a method,
+# {} brackets can be omitted inside the method call. For example:
 
 puts "uno": 1, "dos": 2, "tres": 3
 
-# Es lo mismo que decir
+# Is the same as saying:
 
 puts({"uno": 1, "dos": 2, "tres": 3})
 
-# Solo que omitiendo los paréntesis () por ser un método y omitiendo
-# los brackets {} por ser el último argumento entregado al método
+# Only that we omit the () parentheses (because, in ruby, that can be
+# done, as we already saw) and we also omit the {} brackets (because
+# the hash is the last element given to the method)
+
+# WHAAAAAAAT????
