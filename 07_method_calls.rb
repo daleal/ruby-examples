@@ -1,5 +1,5 @@
 # Calls method as expected
-puts("WENA WENA")
+puts("CORONAO CORONAO CORONAO NOW NOW")
 
 # Calls method WITHOUT parentheses... ¡¿WHAT?!
-puts "WENA WENA"
+puts "CORONAO CORONAO CORONAO NOW NOW"
